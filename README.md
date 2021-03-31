@@ -1,3 +1,3 @@
-## Diferença entre git add . e git add -A
+## Aulas de JavaScript do Jeff
 
-O git add . apenas adiciona mudanças na versão atual do índice, já o git add -A serve para incluir todas as mudanças, sejam elas remoções ou adições, em uma única versão final
+Este repositório é destinado para os arquivos loucos que serão feitos ao longo das aulas ministradas por Jefferson Sarti, programador na empresa VR Benefícios, amigo muito querido. 
