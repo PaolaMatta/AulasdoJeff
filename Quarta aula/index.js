@@ -11,14 +11,14 @@ let numeroAnterior2 = 1;
 let numeroAtual = numeroAnterior1 + numeroAnterior2;
 let numeroAleatorio = 90;
 
-while(numeroAtual <= numeroAleatorio) {
+while(numeroAtual < numeroAleatorio) {
   console.log(numeroAtual);
   numeroAnterior1 = numeroAnterior2;
   numeroAnterior2 = numeroAtual;
   numeroAtual = numeroAnterior1 + numeroAnterior2;
 }
 
-if (numeroAtual = numeroAleatorio) {
+if (numeroAtual === numeroAleatorio) {
     console.log(`O número ${numeroAleatorio} pertence à sequência de Fibonacci.`);
 } else {
      console.log(`O número ${numeroAleatorio} não pertence à sequência de Fibonacci.`);
