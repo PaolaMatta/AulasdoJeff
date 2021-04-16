@@ -8,10 +8,10 @@ const listaDeValores = [100, 123, 44, 77, 59, 129, -54, -334, 2, 0];
 for (let i = 0; i < listaDeValores.length; i++) {
  console.log(listaDeValores[i]);
 }
-let m = new Array ();
+const m = [];
 
-for (i = 0; i < 10; i++){
-if (i < 9){
+for (let i = 0; i < 10; i++){
+if (let i < 9){
      m.push(listaDeValores[0+i] * listaDeValores[1+i]);
 }else{
     m.push(0);
