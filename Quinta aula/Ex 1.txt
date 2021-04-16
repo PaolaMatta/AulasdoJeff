@@ -1,0 +1,10 @@
+Pesquisem sobre o garbage collector do Javascript e respondam às seguintes perguntas:
+a) Para que ele serve?
+No Javascript, o Garbage Collector é o mecanismo de liberação das informações da memória depois de usadas, isto é, quando não é mais necessária. 
+
+b) O que ele faz?
+Monitora quais informações da memória não serão mais utilizadas e as "descarta", mas não necessariamente significando que abrirá espaço na memória. 
+
+c) Em qual(is) região(ões) da memória (Heap/Stack) ele atua?
+Ele atua no Stack.
+
