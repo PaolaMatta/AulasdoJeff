@@ -194,6 +194,7 @@
      flex-wrap: wrap;
      color: black;
      padding: 32px;
+     position: relative;
  }
 
 .card1 img,
@@ -229,4 +230,5 @@
      cursor: pointer;
      margin-top: 16px;
      background: rgb(57, 204, 76);
+     font-size: 1.1rem;
  } 
