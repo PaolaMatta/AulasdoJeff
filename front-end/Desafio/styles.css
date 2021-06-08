@@ -1,0 +1,166 @@
+:root {
+    --clr-light100: #F3EED9;
+    --clr-dark300: #824936;
+    --clr-dark900: #222C2A;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+ background-color: var(--clr-light100);
+ max-width: 1128px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+
+}
+
+body {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.content {
+    max-width: 1128px;
+    position: relative; 
+}
+
+.p-header {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 0.7rem;
+    letter-spacing: 0.5rem;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    margin: 1rem 0 0;
+}
+
+.h1-header {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 1.5rem;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    color: var(--clr-dark300);
+    margin: 0 5rem 1rem;
+    max-width: 50%;
+}
+
+
+.white {
+ background-color: white;
+ max-width: 1128px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 8rem;
+}
+.white h2 {
+    font-family: 'Playfair Display', sans-serif;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    color: var(--clr-dark300);
+    margin: 1rem;
+}
+
+.white p {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    margin: 0 1.5rem 1rem;
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+.split > * + * {
+    margin-top: 2em;
+}
+
+@media (min-width: 40em) {
+    .split {
+        flex-direction: row;
+    }
+    .split > * {
+        flex-basis: 100%;
+    }
+    .split > * + * {
+        margin-top: 0;
+        margin-left: 1em;
+    }
+}
+.dark {
+ background-color: var(--clr-dark900);
+ max-width: 1128px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+}
+
+.dark h2 {
+    font-family: 'Playfair Display', sans-serif;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    color: white;
+    margin: 1rem;
+    text-align: left;
+}
+
+.dark p {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    margin: 0 1.5rem 1rem;
+}
+
+.column-dark {
+    align-items: center;
+    justify-content: center;
+}
+
+.brown {
+ background-color: var(--clr-dark300);
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+
+.brown h2 {
+    color: white;
+    font-family: 'Playfair Display', sans-serif;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+}
+
+.brown p{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    margin: 7 1.5rem 1rem;
+}
+
+img {
+display: block;
+max-width: 100%;
+object-fit: contain;
+margin: 1rem;
+}
+
