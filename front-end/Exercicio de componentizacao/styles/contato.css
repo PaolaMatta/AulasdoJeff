@@ -1,0 +1,54 @@
+
+h3 {
+  font-size: 1.5em;
+  color: var(--darkBlue);
+  margin-bottom: 0.5rem;
+}
+
+a {
+   text-decoration: none;
+   font-size: 1rem;
+   color: rgb(194, 106, 121); 
+}
+
+.contato-page{
+    display: flex;
+}
+
+.contato-page h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.faq-row {
+    font-size: 1rem;
+}
+
+.faq-row ul li {
+    margin: 1rem;
+}
+
+.FAQ, .redes-sociais {
+  margin: 2rem;
+}
+
+.redes-sociais {
+    margin-left: 20rem;
+}
+
+.icons-sociais{
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+}
+
+.outros-contatos h3 {
+    margin-top: 1rem;
+}
+
+.outros-contatos p {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: inherit;
+}
